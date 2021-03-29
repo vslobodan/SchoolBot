@@ -1,1 +1,1 @@
-# Ol♡ksandr RybaloV thanks for guiding me)
+## The bot will send a link to the lesson in time
