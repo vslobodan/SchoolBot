@@ -32,7 +32,7 @@ while True:
     elif datetime.today().weekday() == 1 and time.hour == h_les7 and time.minute == m_les7:
         send(history_wrl)
     elif datetime.today().weekday() == 2 and time.hour == h_les1 and time.minute == m_les1:
-        bot.send_message(chat_id = idi, text = "Першого уроку немає")
+        send_no("Першого уроку немає")
     elif datetime.today().weekday() == 2 and time.hour == h_les2 and time.minute == m_les2:
         send(algebra)
     elif datetime.today().weekday() == 2 and time.hour == h_les3 and time.minute == m_les3:
